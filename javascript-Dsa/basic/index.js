@@ -14,7 +14,7 @@ for (let k = 0; k < sumarray.length; k++) {
 const productarray = [1, 8, 5, 6, 9, 10];
 let product = 0;
 for (let i = 0; i < sumarray.length; i++) {
-  product += sumarray[i];
+  product *= sumarray[i];
 }
 
 // getting min value from an array
